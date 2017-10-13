@@ -1,0 +1,30 @@
+html{
+  height: 100%;
+  overflow: hidden;
+}
+body{
+  height: 100%;
+  overflow: hidden;
+  display:flex;
+  flex-flow:column;
+}
+section{
+  overflow-y: scroll;
+  flex:1;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  min-width: 1024px;
+}
+
+//------------------E----------登录相关
+//------------------S----------登录相关
+.div-login-container{
+  width:260px;
+  height:300px;
+  margin:120px auto;
+}
+.btn-login-submit{
+  width: 100%;
+}
+
+//------------------E----------登录相关

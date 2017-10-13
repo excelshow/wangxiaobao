@@ -1,0 +1,324 @@
+//------------------S----------公共部分
+
+.component-container{
+  margin: 10px 0px;
+}
+.hidden{
+  display:none;
+}
+.pull-right{
+  float:right;
+}
+.pull-left{
+  float:left;
+}
+.margin-10-l-r{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.margin-r-10{
+  margin-right: 10px;
+}
+.margin-r-5{
+  margin-right: 5px;
+}
+.margin-l-10{
+  margin-left: 10px!important;
+}
+.margin-t-10{
+  margin-top: 10px;
+}
+.margin-t-0{
+  margin-top: 0px;
+}
+.margin-t-5{
+  margin-top: 5px;
+}
+.margin-b-0{
+  margin-bottom: 0px!important;
+}
+.margin-b-10{
+  margin-bottom: 10px;
+}
+.margin-b-15 {
+  margin-bottom: 15px;
+}
+
+.margin-0{
+  margin: 0px;
+}
+.margin-5{
+  margin: 5px;
+}
+//------------------E----------公共部分
+
+
+//------------------S----------导航相关
+.navigation-item-right{
+  float:right !important;
+}
+.brandbar{
+  margin: 10px;
+}
+.img-logo{
+  height: 20px;
+}
+//------------------E----------导航相关
+
+//------------------S----------订单管理
+.form-search-bar{
+  width: 100%;
+}
+
+.search-bar-item{
+  float: left;
+  height: 26px;
+}
+.search-bar-condition{
+  width: 100px;
+}
+.search-bar-query{
+  min-width: 200px;
+}
+
+.search-toolbar-container{
+  display: flex;
+}
+.search-toolbar-search{
+  width: 480px;
+}
+
+.search-toolbar-download{
+  flex: 1;
+}
+
+
+.icon-square{
+  width: 20px;
+  height: 20px;
+}
+.mark-orange{
+  color: orangered;
+  background-color: orangered;
+}
+.mark-blue{
+  color: blue;
+  background-color: blue;
+}
+.mark-green{
+  color: green;
+  background-color: green;
+}
+.mark-yellow{
+  color:orange ;
+  background-color: orange;
+}
+.mark-gray{
+  color: darkgrey;
+  background-color: darkgrey;
+}
+
+.tb-order-list{
+  height: 600px;
+}
+.img-product{
+  height: 50px;
+  width: 50px;
+}
+.row-product{
+  padding: 5px 0px;
+}
+.row-product-top{
+
+  border-top: 1px solid #EEEEEE;
+}
+.row-product-title{
+  text-align: center;
+}
+.col-order-id{
+  max-width: 160px ;
+}
+.col-buyer-nick{
+  max-width: 180px ;
+}
+.col-payment{
+  width:80px;
+}
+.col-create-time{
+  max-width:180px;
+}
+.col-trade-status{
+  width:100px;
+}
+
+.col-receiver{
+
+}
+.col-print-status{
+  width:120px;
+
+}
+.wait-print{
+  color: darkred;
+}
+.has-print{
+  color: dodgerblue;
+}
+.loading-tpl{
+  color: yellowgreen;
+}
+.loading-tpl-failed{
+  color: red;
+}
+.in-print-queue{
+  color: orange;
+}
+.div-logistic-num{
+  font-weight: 700;
+  margin-top: 5px;
+}
+.input-send-goods-logistic-num input{
+  font-weight: 700;
+  font-size:14px;
+}
+.download-order-failed{
+  color: red;
+}
+.download-order-success{
+  color:green;
+}
+//------------------E----------订单管理
+//-----------------S-----------货单模版
+.h-print-item-header{
+  margin-top: 0px;
+
+}
+.div-product-tpl-page-container{
+  width: 100%;
+  height: 100%;
+  background-color: #EEEEEE;
+  padding: 20px;
+
+}
+
+.div-product-tpl-page{
+  padding: 0px 0px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  height:140mm;
+  width:241mm;
+}
+.div-product-tpl-item-container{
+  padding-left: 10px;
+}
+//-----------------E-----------货单模版
+
+//-----------------S-----------运单模版
+.img-logistic-tpl{
+  height: 50px;
+}
+.div-logistic-tpl-page-container{
+  width: 100%;
+  height: 100%;
+  background-color: #EEEEEE;
+  padding: 20px;
+
+}
+
+.div-logistic-tpl-page{
+  position: relative;
+  padding: 0px 0px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  height:140mm;
+  width:241mm;
+}
+.div-logistic-tpl-print-area{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px dotted red;
+}
+
+
+.div-print-item{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  width: 120px;
+  height: 30px;
+  cursor: move;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: #FFF;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: 2px 2px 5px #ccc;
+  -moz-box-shadow: 2px 2px 5px #ccc;
+  box-shadow: 2px 2px 5px #ccc;
+  font-family: '微软雅黑';
+  font-size: 15px;
+  font-weight: 400;
+}
+.div-resize-content-container{
+  flex: 1;
+  overflow-y: hidden;
+}
+.div-resize-close-container{
+  width: 15px;
+}
+.span-resize-close{
+  float: right;
+  width: 15px;
+  margin:0;
+  padding:0px 0px 0px 0px;
+  cursor:pointer;
+}
+.img-logistic-tpl-background{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+//-----------------E-----------运单模版
+
+//-----------------S-----------发货物流
+.div-logistic-tpl-img-container{
+  width:350px;
+  height:260px;
+  border: 1px solid #eeeeee;
+}
+.img-logistic-tpl-preview{
+  width: 100%;
+}
+//-----------------E-----------发货物流
+
+.resizable-close {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  right: 0;
+  padding: 0 0px 0px 0;
+  //background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  cursor: se-resize;
+}
+
+
+
+
